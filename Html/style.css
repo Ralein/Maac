@@ -1,0 +1,21 @@
+table {
+    width: 90%;
+    margin: 20px auto;
+
+  }
+  th, td {
+    border: 1px solid #353535;
+    padding: 10px;
+    text-align: left;
+  }
+  th {
+    background-color: #e7e7e7;
+  }
+  h2 {
+    text-align: center;
+  }
+ #sub {
+    margin: 20px auto;
+    display: block;
+    padding: 10px 20px;
+  }
