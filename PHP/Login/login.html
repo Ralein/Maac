@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="./landing_page.php" method="POST">
+        <label for="Username">Username:</label>
+        <input type="text" id="Username" minlength="5" maxlength="20" name="Name" required>
+
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" minlength="5" maxlength="20" name="pass" required>
+
+        <br><br>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" placeholder="xyz@gmail.com" name="Email" required>
+        <br><br>
+
+        <div class="button-row">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+</html>
